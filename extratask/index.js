@@ -137,31 +137,44 @@
 // let res=innerFn()
 // console.log(res());
 
-//! YOXLANILMAYANLAR
-// Task1
-const calculateAverage=arr=>{
-    let sum=0
-    arr.forEach(el=>sum+=el)
-    return sum/arr.length
-}
-console.log(calculateAverage([2, 4, 6, 8]))
+//? Task1
+// const calculateAverage=arr=>{
+//     let sum=0
+//     arr.forEach(el=>sum+=el)
+//     return sum/arr.length
+// }
+// console.log(calculateAverage([2, 4, 6, 8]))
 
-// Task2
-const isEven=num=>(num%2==0)
-console.log(isEven(4));
-console.log(isEven(7));
+//? Task2
+// const isEven=num=>(num%2==0)
+// console.log(isEven(4));
+// console.log(isEven(7));
 
-// Task3
-const celsiusToFahrenheit=C=>((C*1.8)+32)
-console.log(celsiusToFahrenheit(0));
-console.log(celsiusToFahrenheit(100));
+//? Task3
+// const celsiusToFahrenheit=C=>((C*1.8)+32)
+// console.log(celsiusToFahrenheit(0));
+// console.log(celsiusToFahrenheit(100));
 
-// Task4
-const findMin=arr=>(Math.min(...arr))
-console.log(findMin([3, 7, 2, 8, 5]))
+//? Task4
+// const findMin=arr=>(Math.min(...arr))
+// console.log(findMin([3, 7, 2, 8, 5]))
 
-// Task5
-const removeDuplicates=array=>{
-   return array.filter((el,i)=>array.indexOf(el)==i)
-}
-console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]))
+//? Task5
+// const removeDuplicates=array=>{
+//    return array.filter((el,i)=>array.indexOf(el)==i)
+// }
+// console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]))
+
+//? Task6
+// const fetchData=(callback=>{
+//     setTimeout(()=>{
+//       const data={
+//           name:'Jhon',
+//           surname:'Doe',
+//           age:25
+//       }
+//       callback(data)
+//     },2000)
+//   })
+//   const Data=(data=>console.log('Gelen melumat:',data))
+//   fetchData(Data)
